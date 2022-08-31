@@ -33,7 +33,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url() no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -1008,4 +1007,31 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+/* ------------------------------------------------------------------ */
+/* Video
+/* ------------------------------------------------------------------ */
+
+
+#video_background {
+position: absolute;
+bottom: 0px;
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+overflow: hidden;
+}
+#video_pattern {
+background:#fff;
+position: fixed;
+opacity: 0.8;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
 
